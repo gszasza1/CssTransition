@@ -18,9 +18,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App_transistions{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .App-link {
   color: #61dafb;
+}
+.all_padding{
+  padding-top: 20px;
+}
+.all_title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 4vh;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
