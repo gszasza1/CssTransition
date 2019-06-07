@@ -18,23 +18,60 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App_transistions{
+
+.App_transistions {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .App-link {
   color: #61dafb;
 }
-.all_padding{
-  padding-top: 20px;
+
+.all_padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.all_title{
+
+.all_title {
   font-family: 'Raleway', sans-serif;
   font-size: 4vh;
   font-weight: lighter;
   padding-top: 20px;
-  padding-bottom: 20px;
+}
+
+.square_list>* {
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh;
+  font-weight: lighter;
+}
+
+.square_list>li>* {
+  margin: 0 auto;
+}
+
+.square_list>li {
+  display: flex;
+  flex-direction: column;
+}
+
+.square_list>li>span {
+  margin-bottom: 10px;
+}
+
+.square_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.square {
+  background-color: #61dafb;
+  width: 50px;
+  height: 50px;
 }
 
 @keyframes App-logo-spin {
