@@ -1,0 +1,13 @@
+.width_v1:hover{
+    width: 100px;
+    transition: all 1s;
+}
+.width_v2in{
+    width: 100px;
+    transition: all 1s;
+}
+
+.width_v2out{
+    width: 50px;
+    transition: all 1s;
+}

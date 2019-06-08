@@ -22,8 +22,7 @@ class First extends React.Component {
     render() {
         const Open = this.state.isOpen ? "square square_v2fadein" : "square square_v2fadeout"
         return (
-            <div className="all_padding">
-                <span className="all_title">Fading</span>
+        
                 <ul className="square_list">
                     <li>
                         <span>Hover</span>
@@ -34,7 +33,7 @@ class First extends React.Component {
                         <div onClick={this.handleChange} className={Open}></div>
                     </li>
                 </ul>
-            </div>
+          
         );
     }
 
